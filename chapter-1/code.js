@@ -1,13 +1,3 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-<meta charset=="utf-8">
-<title>test</title>
-</head>
-
-<body>
-<script>
 var word="병";
 var count=99;
 while (count>0) {
@@ -21,6 +11,3 @@ console.log(count+""+word+"의 맥주가 벽장에 있네.");
 } else {
 console.log("이제 벽장엔 한"+word+"의 맥주도 없다네.");
 }
-</script>
-</body>
-</html>

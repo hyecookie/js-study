@@ -1,0 +1,42 @@
+/*45p*/
+
+var price=28.99;
+var discount=10;
+var total=
+price-(price*(discount/100));
+if (total>25) {
+document.write ("정답");
+}
+else if (total>45){
+document.wirte ("땡");
+}
+
+
+
+var count=10;
+while (count>0) {
+document.write("샤이닝<br>");
+count=count-1;
+}
+
+
+
+
+var dog = {name:"짱구",weight:30};
+if (dog.weight==25) {
+alert ("월! 월!");
+}
+else if(dog.weight==15)
+{
+alert("멍! 멍!");
+}
+else (dog.weight==10)
+{
+alert("왕!왕!");
+}
+
+
+
+var circleRadius = 20;
+var circleArea=
+Math.PI*(circleRadius*circleRadius);

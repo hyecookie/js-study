@@ -1,6 +1,7 @@
-var location1 = 3;
-var location2 = 4;
-var location3 = 5;
+var randomLoc = Math.floor(Math.random()*5);
+var location = randomLoc;
+var location2 = location1 + 1;
+var location3 = location2 + 1;
 
 var guess;//사용자입력값
 var hits = 0;

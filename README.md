@@ -10,3 +10,7 @@ week-3-practice
 
 1-date
 http://hyecookie.github.io/js-study/chapter-3/date.html
+
+2-cat
+http://hyecookie.github.io/js-study/chapter-3/cat.html
+

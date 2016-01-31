@@ -14,3 +14,7 @@ http://hyecookie.github.io/js-study/chapter-3/date.html
 2-cat
 http://hyecookie.github.io/js-study/chapter-3/cat.html
 
+
+3-battleShip
+http://hyecookie.github.io/js-study/chapter-3/battleShip.html
+

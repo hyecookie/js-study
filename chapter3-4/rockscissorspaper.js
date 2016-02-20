@@ -19,5 +19,4 @@ for (var i = 0; i < cpu.length; i = i + 1) {
      {break;}
    }
   }
-
 }

@@ -1,5 +1,5 @@
 
-var case = ["가위","바위","보"];
+var cpuInput= ["가위","바위","보"];
 var random = Math.floor(Math.random() * cpu.length);
 var cpu = cpu[random];
 

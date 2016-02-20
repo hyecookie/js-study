@@ -18,3 +18,5 @@ http://hyecookie.github.io/js-study/chapter-3/cat.html
 3-battleShip
 http://hyecookie.github.io/js-study/chapter-3/battleShip.html
 
+4-rockscissorspaper
+http://hyecookie.github.io/js-study/chapter3-4/rockscissorspaper.html

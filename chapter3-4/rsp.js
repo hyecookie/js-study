@@ -11,7 +11,7 @@ function rsp(userInput, cpu){
     }
 
     if (userInput == cpu) {
-      alert("비겼습니다");
+      alert("비겼습니다. 다시 입력해 주세요.");
     }
     if (userInput != cpu) {
       if (userInput == "바위") {

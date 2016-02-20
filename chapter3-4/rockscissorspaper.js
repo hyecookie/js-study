@@ -12,11 +12,11 @@ for (var i = 0; i < cpu.length; i = i + 1) {
     }
     if((i = 0 && user === "바위") || (i = 1 && user === "보") || (i = 2 && user === "가위")){
      alert("제가" + cpu + "를 냈으므로 당신이 이겼습니다");
-     {break;}
+     break;
     }
     if((i = 0 && user === "보") || (i = 1 && user === "가위") || (i = 2 && user === "바위")){
      alert("제가" + cpu + "를 냈으므로 당신이 졌습니다");
-     {break;}
+     break;
    }
   }
 }

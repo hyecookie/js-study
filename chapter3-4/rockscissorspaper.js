@@ -1,5 +1,5 @@
 
-var cpu = ["가위","바위","보"];
+var case = ["가위","바위","보"];
 var random = Math.floor(Math.random() * cpu.length);
 var cpu = cpu[random];
 
@@ -18,5 +18,5 @@ for (var i = 0; i < cpu.length; i = i + 1) {
      alert("제가" + cpu + "를 냈으므로 당신이 졌습니다");
      break;
    }
-  }
+ }
 }

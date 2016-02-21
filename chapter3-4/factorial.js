@@ -1,4 +1,4 @@
-var userInput = prompt("값을 입력해 주세요.");
+var userInput = prompt("숫자를 입력해 주세요.");
 var num = userInput;
 var renew = userInput - 1;
 factorial (num);

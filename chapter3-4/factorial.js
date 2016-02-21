@@ -8,4 +8,5 @@ function factorial(n){
        num = num * (renew);
        renew = renew - 1;
      }
+     alert(num);
 }

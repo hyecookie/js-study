@@ -19,23 +19,28 @@ function userInput1(userInput) {
 
   var result = "";
   input = prompt("단어를 입력하시면 암호로 변환해드림");
-  var check = input.charCodeAt(i);
-  if (check < 65 || check >90){
-    alert("알파벳만 입력해 주세요");
-  }
+  var user = true;
 
-  for (var i = 0; i < input.length ; i++){
-    var newCode = input.charCodeAt(i)-2;
-    if (newCode < 65) {
-      newCode = newCode + 26;
+  while (user === true) {
+    var check = input.charCodeAt(input.length);
+
+    if (check < 65 || check > 90){
+      alert("알파벳만 입력해 주세요");
+
+    } else if (check > 64 && check < 91) {
+      for (var i = 0; i < input.length ; i++){
+       var newCode = input.charCodeAt(i)-2;
+       if (newCode < 65) {
+         newCode = newCode + 26;
+      }
+
+      var newChar = String.fromCharCode(newCode);
+      result = result + newChar;
+      console.log(result);
     }
-
-
-    var newChar = String.fromCharCode(newCode);
-    result = result + newChar;
-    console.log(result);
+    alert(result);
   }
-  alert(result);
+ }
 }
 
 

@@ -36,6 +36,7 @@ function userInput1(userInput) {
     console.log(result);
   }
   alert(result);
+  user = false;
 }
 
 
@@ -53,4 +54,5 @@ function userInput2(userInput) {
     console.log(result);
   }
   alert(result);
+  user = false;
 }

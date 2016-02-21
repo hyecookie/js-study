@@ -13,13 +13,13 @@ var cpu = random();
 
 function add() {
   var num = 0;
-  for (var i = 0; i < 11; i = i -1) {
+  for (var i = 0; i < 5; i++) {
     num = num +i;
   }
   console.log(num);
 }
 
-add(5);
+add();
 
 //
 function addRecursive(num) {

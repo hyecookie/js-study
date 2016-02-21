@@ -9,7 +9,6 @@ function rsp(userInput, cpu){
     if (userInput === null) {
     draw = true;
     }
-
     if (userInput == cpu) {
       alert("비겼습니다. 다시 입력해 주세요.");
     }

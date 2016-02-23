@@ -1,4 +1,4 @@
-functijon add (number) {
+function add (number) {
   if (number === 1) {
     return 1;
   }
@@ -10,3 +10,5 @@ functijon add (number) {
 // 돌면서 남는거에 재 대입을 한다.
 
 // parseInt 문자열로 입력된 숫자를 숫자로 변환해준다.
+
+//묵찌빠 문제

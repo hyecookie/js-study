@@ -22,7 +22,12 @@ function userInput1(userInput) {
   var user = true;
 
   while (user === true) {
-    var check = input.charCodeAt(input.length);
+    for (var count = 0; count < input.length; count++ ) {
+    var output = input.charCodeAt(input.length(count));
+    console.log(output);
+    }
+    var check = Strong.fromCharCode(output);
+
 
     if (check < 65 || check > 90){
       alert("알파벳만 입력해 주세요");

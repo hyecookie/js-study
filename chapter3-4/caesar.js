@@ -39,16 +39,30 @@ function cat(input) {
     }
     var newChar = String.fromCharCode(newCode);
     result = result + newChar;
+    console.log(result);
   }
   return result;
 }
 
 
+유저입력 - prompt
+
+암호일 경우 -1
+복호일 경우 -2
+
+알파벳이 아닌경우 (아스키코드 목록에서 알파벳범위 숫자가 아닌경우) 경고 문구 띄우기
+
+암호일 경우 1 charCodeAt 실행
+
+복호일 경우 2 fromCharCode 실행
+
+
+
 //알파벳 대문자 65 ~ 90
 //알파벳 소문자 97 ~ 122
-
 // 모드 선택 (암호화/복호화)
 // 문자열을 입력 받아 처리
 // 암호화/복호화 각각 함수로 만들어 보기
+
 // 만약 알파벳 외에 다른 문자가 들어왔을 때 예외 처리 아스키코드 숫자에서 벗어나면 반
 // 대소문자가 섞여서 왔을 때도 처리해 보기 (옵션)

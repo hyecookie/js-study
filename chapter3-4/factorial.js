@@ -5,8 +5,8 @@ factorial (num);
 
 function factorial(n){
      while (renew > 1) {
-       num = num * (renew);
+       n = n * (renew);
        renew = renew - 1;
      }
-     alert(num);
+     alert(n);
 }

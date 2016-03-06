@@ -16,13 +16,13 @@ function rsp(userInput, cpu1){
     }
 
     if (userInput == cpu1) {
-      alert("제가" + userInput + " 을 냈으므로 비겼습니다. 다시 입력해 주세요.");
+      alert("제가" + userInput + "를 냈으므로 비겼습니다. 다시 입력해 주세요.");
       rsp(userInput, cpu1);
 
     } else if (((userInput == "가위" ) && (cpu1 == "보")) || ((userInput == "바위") && (cpu1 == "가위")) || ((userInput == "보") && (cpu1=="바위"))) {
-        alert("제가" + cpu1 + "를 냈으므로 당신이 이겼습니다" + " 1=가위, 2=바위, 3=보");
+        alert("제가" + cpu1 + "를 냈으므로 당신이 이겼습니다" );
       }
       else if (((userInput == "가위" ) && (cpu1 == "바위")) || ((userInput == "바위") && (cpu1 == "보")) || ((userInput == "보") && (cpu1=="가위"))) {
-        alert("제가" + cpu1 + "를 냈으므로 당신이 졌습니다" + " 1=가위, 2=바위, 3=보");
+        alert("제가" + cpu1 + "를 냈으므로 당신이 졌습니다");
       }
 }

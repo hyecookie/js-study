@@ -37,9 +37,9 @@ function mzp2(userInput2,cpu2){
   userInput2 = prompt ("묵, 찌, 빠 중 하나를 다시 입력해 주세요.");
   if (cpu2 == 1) {
     cpu2 = "묵";
-  } else if (cpu1 == 2) {
+  } else if (cpu2 == 2) {
     cpu2 = "찌";
-  } else if (cpu1 == 3){
+  } else if (cpu2 == 3){
     cpu2 = "빠";
     }
 

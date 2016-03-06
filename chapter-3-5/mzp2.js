@@ -10,6 +10,11 @@ mzp(userInput, cpu1);
 
 function mzp(userInput, cpu1){
   userInput = prompt ("묵, 찌, 빠 중 하나를 입력해 주세요.");
+  if (userInput != "묵" && userInput != "찌" && userInput != "빠"){
+    alert("묵, 찌, 빠 만 입력 가능합니다.");
+    mzp(userInput, cpu1);
+  }
+
   if (cpu1 == 1) {
     cpu1 = "묵";
   } else if (cpu1 == 2) {
@@ -27,7 +32,7 @@ function mzp(userInput, cpu1){
      mzp2(userInput2, cpu1);
 
  } else if (((userInput == "묵" ) && (cpu1 == "찌")) || ((userInput == "찌") && (cpu1 == "빠")) || ((userInput == "빠") && (cpu1=="묵"))) {
-     alert("제가" + cpu1 + "를()을) 내서 졌으므로 당신이 공격권을 가집니다.");
+     alert("제가" + cpu1 + "를(을) 내서 졌으므로 당신이 공격권을 가집니다.");
      mzp3(userInput3, cpu1);
 
  }

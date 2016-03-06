@@ -7,6 +7,12 @@ rsp(userInput, cpu1);
 
 function rsp(userInput, cpu1){
   userInput = prompt ("가위, 바위, 보 중 하나를 입력해 주세요.");
+  if (userInput != "가위" && userInput != "바위" && userInput != "보"){
+    alert("가위, 바위, 보 만 입력 가능합니다.");
+    rsp(userInput, cpu1);
+  }
+
+
   if (cpu1 == 1 ) {
     cpu1 = "가위";
   } else if (cpu1 == 2) {

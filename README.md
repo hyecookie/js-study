@@ -19,15 +19,15 @@ http://hyecookie.github.io/js-study/chapter-3/cat.html
 http://hyecookie.github.io/js-study/chapter-3/battleShip.html
 
 4-rockscissorspaper
-http://hyecookie.github.io/js-study/chapter3-4/rsp.html
+http://hyecookie.github.io/js-study/chapter-3-4/rsp.html
 
 5- factorial
-http://hyecookie.github.io/js-study/chapter3-4/factorial.html
+http://hyecookie.github.io/js-study/chapter-3-4/factorial.html
 
 6 - caesar2
-http://hyecookie.github.io/js-study/chapter3-4/caesar.html
+http://hyecookie.github.io/js-study/chapter-3-4/caesar.html
 
 7 - rsp2
-http://hyecookie.github.io/js-study/chapter3-5/rsp2.html
+http://hyecookie.github.io/js-study/chapter-3-5/rsp2.html
 
 

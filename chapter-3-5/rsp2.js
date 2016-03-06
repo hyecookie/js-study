@@ -1,4 +1,4 @@
-var random = Math.floor(Math.random() * 3);
+var random = Math.floor((Math.random() * 2) + 1);
 var cpu1 = random;
 
 var userInput;

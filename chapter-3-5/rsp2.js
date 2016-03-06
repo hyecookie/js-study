@@ -11,6 +11,9 @@ function rsp(userInput, cpu1){
     replace1 = userInput.replace("가위","1");
     replace2 = userInput.replace("바위","2");
     replace3 = userInput.replace("보","3");
+    console.log(replace1);
+    console.log(replace2);
+    console.log(replace3);
 
     if (replace1 === null && replace2 === null && replace2 === null) {
     }
@@ -19,11 +22,11 @@ function rsp(userInput, cpu1){
       continue;
 
     } else if ((replace1 != cpu1 && (cpu1 == 3)) || (replace2 != cpu1 && (cpu1 == 1)) || (replace3 != cpu1 && (cpu1 == 2))) {
-        alert("제가" + cpu1 + "를 냈으므로 당신이 이겼습니다" + " 1=가위, 2=바위, 3=보");
+        alert("제가" + cpu1 + "를 냈으므로 당신이 이겼습니다");
         draw = true;
       }
       else if ((replace1 != cpu1 && (cpu1 == 2)) || (replace2 != cpu1 && (cpu1 == 3)) || (replace3 != cpu1 && (cpu1 == 1))) {
-        alert("제가" + cpu1 + "를 냈으므로 당신이 졌습니다" + " 1=가위, 2=바위, 3=보");
+        alert("제가" + cpu1 + "를 냈으므로 당신이 졌습니다");
         draw = true;
       }
 

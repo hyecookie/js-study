@@ -33,6 +33,9 @@ http://hyecookie.github.io/js-study/chapter-3-5/rsp2.html
 8 -factorial-2
 http://hyecookie.github.io/js-study/chapter-3-5/factorial2.html
 
+9 -묵찌빠
+http://hyecookie.github.io/js-study/chapter-3-5/mzp.html
+
 
 
 

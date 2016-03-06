@@ -16,14 +16,14 @@ function rsp(userInput, cpu1){
     if (replace1 === null && replace2 === null && replace2 === null) {
     }
     if (replace1 == cpu1 || replace2 == cpu1 || replace3 == cpu1) {
-      alert("제가" + userInput + "을 냈으므로 비겼습니다. 다시 입력해 주세요.");
+      alert("제가" + userInput + "를 냈으므로 비겼습니다. 다시 입력해 주세요.");
       continue;
 
     } else if ((replace1 != cpu1 && (cpu1 == 3)) || (replace2 != cpu1 && (cpu1 == 1)) || (replace3 != cpu1 && (cpu1 == 2))) {
-        alert("제가" + cpu1 + "을 냈으므로 당신이 이겼습니다" + " 1=가위, 2=바위, 3=보");
+        alert("제가" + cpu1 + "를 냈으므로 당신이 이겼습니다" + " 1=가위, 2=바위, 3=보");
       }
       else if ((replace1 != cpu1 && (cpu1 == 2)) || (replace2 != cpu1 && (cpu1 == 3)) || (replace3 != cpu1 && (cpu1 == 1))) {
-        alert("제가" + cpu1 + "을 냈으므로 당신이 졌습니다" + " 1=가위, 2=바위, 3=보");
+        alert("제가" + cpu1 + "를 냈으므로 당신이 졌습니다" + " 1=가위, 2=바위, 3=보");
       }
       break;
   }

@@ -1,7 +1,5 @@
 var random = Math.floor((Math.random() * 2) + 1);
 var cpu1 = random;
-var draw = false;
-
 var userInput;
 rsp(userInput, cpu1);
 
@@ -11,7 +9,6 @@ function rsp(userInput, cpu1){
     alert("가위, 바위, 보 만 입력 가능합니다.");
     rsp(userInput, cpu1);
   }
-
 
   if (cpu1 == 1 ) {
     cpu1 = "가위";

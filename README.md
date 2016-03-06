@@ -30,7 +30,7 @@ http://hyecookie.github.io/js-study/chapter-3-4/caesar.html
 7 - rsp2
 http://hyecookie.github.io/js-study/chapter-3-5/rsp2.html
 
-8-factorial1
+8 -factorial-2
 http://hyecookie.github.io/js-study/chapter-3-5/factorial2.html
 
 

@@ -3,8 +3,6 @@ var cpu1 = random;
 
 var userInput;
 rsp(userInput, cpu1);
-var draw = false;
-
 
 function rsp(userInput, cpu1){
   while (!draw) {

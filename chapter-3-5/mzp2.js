@@ -33,8 +33,7 @@ function mzp(userInput, cpu1){
 
  } else if (((userInput == "묵" ) && (cpu1 == "찌")) || ((userInput == "찌") && (cpu1 == "빠")) || ((userInput == "빠") && (cpu1=="묵"))) {
      alert("제가" + cpu1 + "를(을) 내서 졌으므로 당신이 공격권을 가집니다.");
-     mzp3(userInput3, cpu1);
-
+     mzp3(userInput3, cpu3);
  }
 }
 

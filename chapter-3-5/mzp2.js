@@ -1,7 +1,7 @@
-var random = Math.floor((Math.random() * 2) + 1);
+var random = Math.floor(Math.random() * 2);
 var cpu1 = random;
-var cpu2 = random;
-var cpu3 = random;
+var cpu2 = cpu1 + 1;
+var cpu3 = cpu2 + 1;
 
 var userInput;
 var userInput2;

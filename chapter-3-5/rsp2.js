@@ -1,4 +1,4 @@
-var random = Math.floor(Math.random() * 3);
+var random = Math.floor(Math.random() * 2);
 var cpu1 = random;
 
 var userInput;
@@ -9,9 +9,9 @@ var draw = false;
 function rsp(userInput, cpu1){
   while (!draw) {
     userInput = prompt ("가위, 바위, 보 중 하나를 입력해 주세요.");
-    replace1 = userInput.replace("가위","1");
-    replace2 = userInput.replace("바위","2");
-    replace3 = userInput.replace("보","3");
+    replace1 = userInput.replace("가위","0");
+    replace2 = userInput.replace("바위","1");
+    replace3 = userInput.replace("보","2");
 
     if (replace1 === null && replace2 === null && replace2 === null) {
     }
@@ -20,7 +20,6 @@ function rsp(userInput, cpu1){
       continue;
 
     } else if ((replace1 != cpu1 && (cpu1 == 3)) || (replace2 != cpu1 && (cpu1 == 1)) || (replace3 != cpu1 && (cpu1 == 2))) {
-
         alert("제가" + cpu1 + "을 냈으므로 당신이 이겼습니다");
       }
       else if ((replace1 != cpu1 && (cpu1 == 2)) || (replace2 != cpu1 && (cpu1 == 3)) || (replace3 != cpu1 && (cpu1 == 1))) {

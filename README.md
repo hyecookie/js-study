@@ -27,4 +27,7 @@ http://hyecookie.github.io/js-study/chapter3-4/factorial.html
 6 - caesar2
 http://hyecookie.github.io/js-study/chapter3-4/caesar.html
 
+7 - rsp2
+http://hyecookie.github.io/js-study/chapter3-5/rsp2.html
+
 

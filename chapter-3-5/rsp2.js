@@ -1,5 +1,6 @@
 var random = Math.floor((Math.random() * 2) + 1);
 var cpu1 = random;
+var draw = false;
 
 var userInput;
 rsp(userInput, cpu1);
@@ -23,6 +24,6 @@ function rsp(userInput, cpu1){
       else if ((replace1 != cpu1 && (cpu1 == 2)) || (replace2 != cpu1 && (cpu1 == 3)) || (replace3 != cpu1 && (cpu1 == 1))) {
         alert("제가" + cpu1 + "를 냈으므로 당신이 졌습니다" + " 1=가위, 2=바위, 3=보");
       }
-      break;
+      draw = true;
   }
 }

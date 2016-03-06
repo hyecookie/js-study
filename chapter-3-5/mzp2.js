@@ -47,10 +47,10 @@ function mzp2(userInput2,cpu2){
     cpu2 = "빠";
     }
 
-  if ((userInput2 != cpu2) || (userInput2!= cpu2) || (userInput2 != cpu2)) {
+  if (userInput2 != cpu2) {
     alert("제가" + cpu2 + "를(을) 내서 다른걸 냈으므로 당신이 공격권을 가집니다.");
     mzp3(userInput3, cpu3);
-  } else if (userInput2 == cpu2 || userInput2 == cpu2 || userInput2 == cpu2) {
+  } else if (userInput2 == cpu2) {
     alert("제가" + cpu2 + "를(을) 냈으므로 당신과 같은걸 냈습니다.당신이 졌습니다.");
    }
 }
@@ -65,10 +65,10 @@ function mzp3(userInput3,cpu3){
     cpu3 = "빠";
     }
 
-  if ((userInput3 != cpu3) || (userInput3 != cpu3) || (userInput3 != cpu3)) {
+  if (userInput3 != cpu3) {
     alert("제가" + cpu3 + "를(을) 내서 다른걸 냈으므로 제가 공격권을 가집니다.");
     mzp2(userInput2, cpu2);
-  } else if (userInput3 == cpu3 || userInput3 == cpu3 || replace8 == cpu3) {
+  } else if (userInput3 == cpu3) {
     alert("제가" + cpu3 + "를(을) 냈으므로 같은걸 냈습니다.당신이 이겼습니다.");
   }
 }

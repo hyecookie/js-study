@@ -24,12 +24,12 @@ function mzp(userInput, cpu1){
     }
 
   if (userInput == cpu1) {
-    alert("제가"+cpu1+"를(을)내서 비겼습니다. 다시입력해주세요");
+    alert("제가" + cpu1 + "를(을)내서 비겼습니다. 다시입력해주세요");
     mzp(userInput,cpu1);
 
  } else if (((userInput == "묵" ) && (cpu1 == "빠")) || ((userInput == "찌") && (cpu1 == "묵")) || ((userInput == "빠") && (cpu1=="찌"))){
      alert("제가" + cpu1 + "를(을) 내서 이겼으므로 공격권을 가집니다.");
-     mzp2(userInput2, cpu1);
+     mzp2(userInput2, cpu2);
 
  } else if (((userInput == "묵" ) && (cpu1 == "찌")) || ((userInput == "찌") && (cpu1 == "빠")) || ((userInput == "빠") && (cpu1=="묵"))) {
      alert("제가" + cpu1 + "를(을) 내서 졌으므로 당신이 공격권을 가집니다.");

@@ -60,7 +60,7 @@ function mzp2(){
     } else if (((userInput2 == "묵" ) && (cpu2 == "빠")) || ((userInput2 == "찌") && (cpu2 == "묵")) || ((userInput2 == "빠") && (cpu2 == "찌"))) {
       alert("cpu가 " + cpu2 + "를(을) 내서 공격권을 가집니다."+ " CPU: " + cpu2 + " User: " + userInput2);
       mzp2();
-    } else if (((userInput2 == "묵" ) && (cpu2 == "찌")) || ((userInput2 == "찌") && (cpu2 == "묵")) || ((userInput2 == "빠") && (cpu2 == "묵"))) {
+    } else if (((userInput2 == "묵" ) && (cpu2 == "찌")) || ((userInput2 == "찌") && (cpu2 == "빠")) || ((userInput2 == "빠") && (cpu2 == "묵"))) {
       alert("cpu가 " + cpu2 + "를(을) 내서 당신이 공격권을 가집니다."+ " CPU: " + cpu2 + " User: " + userInput2);
       mzp3();
     }

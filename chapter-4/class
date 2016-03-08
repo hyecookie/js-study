@@ -1,0 +1,36 @@
+배열은 기본적으로 length를 가지고 있다. 객체...
+객체지향으로 많이쓴다. 역할 분담 개념
+product.length
+우리가 하고 있는건 절차지향
+
+framework 같은것들 이용해서 간단하게 한다는.
+
+배열은 보통 복수명으로 사용한다.
+var members = [ ];
+members = ['cookie', 'jenna', 'lilly'];
+members1;
+cookie
+
+var hands = ["가위", "바위", "보"];
+var cpu = hand [ Math.random...];
+
+
+var rock = {
+ vs.function(rsp) {
+   if (this instanceop rsp){
+    console.log('비겼음');
+   } else if (rsp instanceof scissor) {
+    console.log('이겼음');
+   } else {
+   console.log ("졌음");
+
+   }
+ }
+};
+
+
+var scissor = {
+  vs. function(rsp) {
+  if (this instead)
+  }
+}

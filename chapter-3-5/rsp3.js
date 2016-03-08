@@ -8,24 +8,24 @@ function rsp(userInput, cpu1){
   if (userInput != "가위" && userInput != "바위" && userInput != "보"){
     alert("가위, 바위, 보 만 입력 가능합니다.");
     rsp(userInput, cpu1);
+    return; //끝남 break는 for, while만 됨. switch 케이스만
   }
 
   if (cpu1 == 1 ) {
     cpu1 = "가위";
-  } else if (cpu1 == 2) {
-    cpu1 = "바위";
-  } else if (cpu1 == 3){
-    cpu1 = "보";
+    } else if (cpu1 == 2) {
+      cpu1 = "바위";
+    } else if (cpu1 == 3){
+      cpu1 = "보";
     }
 
     if (userInput == cpu1) {
       alert("제가" + userInput + "를 냈으므로 비겼습니다. 다시 입력해 주세요.");
       rsp(userInput, cpu1);
-
-    } else if (((userInput == "가위" ) && (cpu1 == "보")) || ((userInput == "바위") && (cpu1 == "가위")) || ((userInput == "보") && (cpu1=="바위"))) {
-        alert("제가" + cpu1 + "를 냈으므로 당신이 이겼습니다" );
+      } else if (((userInput == "가위" ) && (cpu1 == "보")) || ((userInput == "바위") && (cpu1 == "가위")) || ((userInput == "보") && (cpu1=="바위"))) {
+          alert("제가" + cpu1 + "를 냈으므로 당신이 이겼습니다" );
       }
       else if (((userInput == "가위" ) && (cpu1 == "바위")) || ((userInput == "바위") && (cpu1 == "보")) || ((userInput == "보") && (cpu1=="가위"))) {
         alert("제가" + cpu1 + "를 냈으므로 당신이 졌습니다");
-      }
+    }
 }

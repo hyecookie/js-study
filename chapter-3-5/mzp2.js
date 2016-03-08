@@ -9,8 +9,11 @@ function mzp(){
   if (userInput != "가위" && userInput != "바위" && userInput != "보"){
     alert("가위, 바위, 보 만 입력 가능합니다.");
     mzp();
+  }
+  if (userInput === null) {
     return;
   }
+
 
   if (cpu1 == 1) {
       cpu1 = "가위";
@@ -41,8 +44,11 @@ function mzp2(){
   if (userInput2 != "묵" && userInput2 != "찌" && userInput2 != "빠"){
     alert("묵, 찌, 빠 만 입력 가능합니다.");
     mzp2();
+  }
+  if (userInput2 === null) {
     return;
   }
+
     if (cpu2 == 1) {
         cpu2 = "묵";
       } else if (cpu2 == 2) {
@@ -53,6 +59,7 @@ function mzp2(){
 
      if (userInput2 == cpu2) {
       alert("cpu가 " + cpu2 + "를(을) 냈으므로 당신이 졌습니다." + " CPU: " + cpu2 + " User: " + userInput2);
+      return;
     } else if (((userInput2 == "묵" ) && (cpu2 == "빠")) || ((userInput2 == "찌") && (cpu2 == "묵")) || ((userInput2 == "빠") && (cpu2 == "찌"))) {
       alert("cpu가 " + cpu2 + "를(을) 내서 공격권을 가집니다."+ " CPU: " + cpu2 + " User: " + userInput2);
       mzp2();
@@ -69,8 +76,11 @@ function mzp3(){
   if (userInput2 != "묵" && userInput3 != "찌" && userInput3 != "빠"){
     alert("묵, 찌, 빠 만 입력 가능합니다.");
     mzp3();
+  }
+  if (userInput3 === null) {
     return;
   }
+
     if (cpu3 == 1) {
         cpu3 = "묵";
       } else if (cpu3 == 2) {
@@ -81,7 +91,7 @@ function mzp3(){
 
      if (userInput3 == cpu3) {
       alert("cpu가 " + cpu3 + "를(을) 냈으므로 당신이 이겼습니다." + " CPU: " + cpu3 + " User: " + userInput3);
-
+      return;
     } else if (((userInput3 == "묵" ) && (cpu3 == "빠")) || ((userInput3 == "찌") && (cpu3 == "묵")) || ((userInput3 == "빠") && (cpu3 == "찌"))) {
       alert("cpu가 " + cpu3 + "를(을) 내서 공격권을 가집니다."+ " CPU: " + cpu3 + " User: " + userInput3);
       mzp2();

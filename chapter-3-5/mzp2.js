@@ -44,28 +44,14 @@ function mzp2(){
       } else if (cpu2 == 3){
         cpu2 = "빠";
     }
-    if (userInput2 != cpu2) {
-      alert("cpu가 " + cpu2 + "를(을) 내서 다른걸 냈으므로 당신이 공격권을 가집니다."+ " CPU: " + cpu2 + " User: " + userInput2);
-      mzp3();
-      } else if (userInput2 == cpu2) {
-      alert("cpu가 " + cpu2 + "를(을) 냈으므로 당신과 같은걸 냈습니다.당신이 졌습니다." + " CPU: " + cpu2 + " User: " + userInput2);
-    }
-}
 
-function mzp3(){
-  var cpu3 = Math.floor(Math.random() * 2 + 1);
-  userInput3 = prompt ("묵, 찌, 빠 중 하나를 다시 입력해 주세요.");
-  if (cpu3 == 1) {
-      cpu3 = "묵";
-    } else if (cpu3 == 2) {
-      cpu3 = "찌";
-    } else if (cpu3 == 3){
-      cpu3 = "빠";
-      }
-  if (userInput3 != cpu3) {
-      alert("cpu가 " + cpu3 + "를(을) 내서 다른걸 냈으므로 cpu가 공격권을 가집니다." + " CPU: " + cpu3 + " User: " + userInput3);
+     if (userInput2 == cpu2) {
+      alert("cpu가 " + cpu2 + "를(을) 냈으므로 당신과 같은걸 냈습니다.당신이 졌습니다." + " CPU: " + cpu2 + " User: " + userInput2);
+    } else if (((userInput2 == "묵" ) && (cpu2 == "빠")) || ((userInput2 == "찌") && (cpu2 == "묵")) || ((userInput2 == "빠") && (cpu2 == "찌"))) {
+      alert("cpu가 " + cpu2 + "를(을) 내서 당신이 공격권을 가집니다."+ " CPU: " + cpu2 + " User: " + userInput2);
       mzp2();
-    } else if (userInput3 == cpu3) {
-      alert("cpu가 " + cpu3 + "를(을) 냈으므로 같은걸 냈습니다.당신이 이겼습니다." + " CPU: " + cpu3 + " User: " + userInput3);
+    } else if (((userInput2 == "묵" ) && (cpu2 == "찌")) || ((userInput2 == "찌") && (cpu2 == "묵")) || ((userInput2 == "빠") && (cpu2 == "묵"))) {
+      alert("cpu가 " + cpu2 + "를(을) 내서 cpu가 공격권을 가집니다."+ " CPU: " + cpu2 + " User: " + userInput2);
+      mzp2();
     }
 }

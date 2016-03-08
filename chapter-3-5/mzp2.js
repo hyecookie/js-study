@@ -43,7 +43,7 @@ function mzp2(){
     return;
   }
     if (cpu2 == 1) {
-      cpu2 = "묵";
+        cpu2 = "묵";
       } else if (cpu2 == 2) {
         cpu2 = "찌";
       } else if (cpu2 == 3){

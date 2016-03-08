@@ -1,4 +1,4 @@
-var random = Math.floor((Math.random() * 2) + 1);
+var random = Math.floor((Math.random() * 3) + 1);
 var cpu1 = random;
 var userInput;
 rsp(userInput, cpu1);

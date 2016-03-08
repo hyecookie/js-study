@@ -4,7 +4,7 @@ var userInput3;
 mzp();
 
 function mzp(){
-  var cpu1 = Math.floor(Math.random() * 2 + 1);
+  var cpu1 = Math.floor(Math.random() * 3 + 1);
   userInput = prompt ("가위, 바위, 보 중 하나를 입력해 주세요.");
   if (userInput != "가위" && userInput != "바위" && userInput != "보"){
     alert("가위, 바위, 보 만 입력 가능합니다.");
@@ -35,7 +35,8 @@ function mzp(){
   }
 
 function mzp2(){
-  var cpu2 = Math.floor(Math.random() * 2 + 1);
+  var cpu2 = Math.floor(Math.random() * 3 + 1);
+  console.log(cpu2);
   userInput2 = prompt ("묵, 찌, 빠 중 하나를 다시 입력해 주세요.");
   if (userInput2 != "묵" && userInput2 != "찌" && userInput2 != "빠"){
     alert("묵, 찌, 빠 만 입력 가능합니다.");

@@ -63,7 +63,7 @@ function mzp3(){
       cpu3 = "빠";
       }
   if (userInput3 != cpu3) {
-      alert("cpu가 " + cpu3 + "를(을) 내서 다른걸 냈으므로 제가 공격권을 가집니다." + " CPU: " + cpu3 + " User: " + userInput3);
+      alert("cpu가 " + cpu3 + "를(을) 내서 다른걸 냈으므로 cpu가 공격권을 가집니다." + " CPU: " + cpu3 + " User: " + userInput3);
       mzp2();
     } else if (userInput3 == cpu3) {
       alert("cpu가 " + cpu3 + "를(을) 냈으므로 같은걸 냈습니다.당신이 이겼습니다." + " CPU: " + cpu3 + " User: " + userInput3);

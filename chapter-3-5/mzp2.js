@@ -37,6 +37,11 @@ function mzp(){
 function mzp2(){
   var cpu2 = Math.floor(Math.random() * 2 + 1);
   userInput2 = prompt ("묵, 찌, 빠 중 하나를 다시 입력해 주세요.");
+  if (userInput2 != "가위" && userInput != "바위" && userInput != "보"){
+    alert("가위, 바위, 보 만 입력 가능합니다.");
+    mzp2();
+    return;
+  }
     if (cpu2 == 1) {
       cpu2 = "묵";
       } else if (cpu2 == 2) {

@@ -20,8 +20,7 @@ function cpuattack () {
   if (userInput2 != "홀" && userInput2 != "짝" ) {
     alert("홀, 짝만 입력 가능합니다");
     cpuattack();
-  }
-  if ((((cpu1 % 2) === 0) && (userInput2 === "짝")) || (((cpu1 % 2) !== 0) && (userInput2 === "홀"))) {
+  } else if ((((cpu1 % 2) === 0) && (userInput2 === "짝")) || (((cpu1 % 2) !== 0) && (userInput2 === "홀"))) {
     alert("정답 입니다. " + " cpu : " + cpu1 + " , player : " + userInput2 );
     return;
   } else if ((((cpu1 % 2) === 0) && (userInput2 === "홀")) || (((cpu1 % 2) !== 0) && (userInput2 === "짝"))) {

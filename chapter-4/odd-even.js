@@ -23,11 +23,10 @@ function cpuattack () {
   }
   if (((cpu1 % 2 === 0) && (userInput2 === "짝")) || ((cpu1 % 2 !== 0) && (userInput2 === "홀"))) {
     alert("정답 입니다. " + " cpu : " + cpu1 + " , player : " + userInput2 );
-    return;
   } else if (((cpu1 % 2 === 0) && (userInput2 === "홀")) || ((cpu1 % 2 !== 0 && userInput2 === "짝"))) {
     alert("오답 입니다." + " cpu : " + cpu1 + " , player : " + userInput2 );
-    return;
   }
+  return;
 }
 
 function playerattack () {
@@ -44,12 +43,11 @@ function playerattack () {
     cpu2 = "짝";
   }
 
+
   if (((userInput3 % 2 === 0)) && ((cpu2 === "짝")) || ((userInput3 % 2 !== 0 ) && (cpu2 === "홀"))) {
     alert("cpu가 맞췄습니다." + " cpu : " + cpu2 + " , player : " + userInput3);
-    return;
-  } else if (((cpu2 % 2 === 0) && (userInput3 === "홀")) || ((cpu2 % 2 !== 0 && userInput3 === "짝"))) {
+  } else if (((userInput3 % 2 === 0)) && ((cpu2 === "홀")) || ((userInput3 % 2 !== 0 ) && (cpu2 === "짝"))) {
     alert("cpu가 틀렸습니다." + " cpu : " + cpu2 + " , player : " + userInput3);
-    return;
   }
-
+  return;
 }

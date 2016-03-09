@@ -37,6 +37,6 @@ http://hyecookie.github.io/js-study/chapter-3-5/factorial2.html
 http://hyecookie.github.io/js-study/chapter-3-5/mzp.html
 
 10 - 홀짝
-http://hyecookie.github.io/js-study/chapter-3-5/odd-even.html
+http://hyecookie.github.io/js-study/chapter-4/odd-even.html
 
 

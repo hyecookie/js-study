@@ -42,9 +42,7 @@ function playerattack () {
   if ( userInput3 < 1 || userInput3 > 100 ) {
     alert("1과 100 사이의 숫자만 입력 가능합니다");
     playerattack();
-  }
-
-  if ((((userInput3 % 2) === 0) && (cpu2 === "짝")) || (((userInput3 % 2) !== 0 ) && (cpu2 === "홀"))) {
+  } else if ((((userInput3 % 2) === 0) && (cpu2 === "짝")) || (((userInput3 % 2) !== 0 ) && (cpu2 === "홀"))) {
     alert("cpu가 맞췄습니다." + " cpu : " + cpu2 + " , player : " + userInput3);
     return;
   } else if ((((userInput3 % 2) === 0) && (cpu2 === "홀")) || (((userInput3 % 2) !== 0 ) && (cpu2 === "짝"))) {

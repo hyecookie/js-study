@@ -20,6 +20,7 @@ function cpuattack () {
   if (userInput2 != "홀" && userInput2 != "짝" ) {
     alert("홀, 짝만 입력 가능합니다");
     cpuattack();
+    return;
   }
   if ((cpu1 % 2 === 0 && (userInput2 === "짝")) || (cpu1 % 2 !== 0 && (userInput2 === "홀"))) {
     alert("정답 입니다. " + " cpu : " + cpu1 + " , player : " + userInput2 );
@@ -37,9 +38,11 @@ function playerattack () {
   }
 
   var userInput3 = prompt("1과 100 사이의 숫자 중 하나를 입력해 주세요.");
+  console.log(userInput3);
   if ( userInput3 < 1 || userInput3 > 100 ) {
     alert("1과 100 사이의 숫자만 입력 가능합니다");
     playerattack();
+    return;
   }
   if ((userInput3 % 2 === 0 && (cpu2 === "짝")) || (userInput3 % 2 !== 0  && (cpu2 === "홀"))) {
     alert("cpu가 맞췄습니다." + " cpu : " + cpu2 + " , player : " + userInput3);

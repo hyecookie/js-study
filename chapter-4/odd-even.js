@@ -38,7 +38,6 @@ function playerattack () {
   }
 
   var userInput3 = prompt("1과 100 사이의 숫자 중 하나를 입력해 주세요.");
-  console.log(userInput3);
   if ( userInput3 < 1 || userInput3 > 100 ) {
     alert("1과 100 사이의 숫자만 입력 가능합니다");
     playerattack();

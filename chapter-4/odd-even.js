@@ -21,9 +21,9 @@ function cpuattack () {
     alert("홀, 짝만 입력 가능합니다");
     cpuattack();
   }
-  if ((((cpu1 % 2) === 0) && (userInput2 === "짝")) || (((cpu1 % 2) !== 0) && (userInput2 === "홀"))) {
+  if ((cpu1 % 2 === 0 && (userInput2 === "짝")) || (cpu1 % 2 !== 0 && (userInput2 === "홀"))) {
     alert("정답 입니다. " + " cpu : " + cpu1 + " , player : " + userInput2 );
-  } else if ((((cpu1 % 2) === 0) && (userInput2 === "홀")) || (((cpu1 % 2) !== 0) && (userInput2 === "짝"))) {
+  } else if ((cpu1 % 2 === 0 && (userInput2 === "홀")) || (cpu1 % 2 !== 0 && (userInput2 === "짝"))) {
     alert("오답 입니다." + " cpu : " + cpu1 + " , player : " + userInput2 );
   }
 }
@@ -41,9 +41,9 @@ function playerattack () {
     alert("1과 100 사이의 숫자만 입력 가능합니다");
     playerattack();
   }
-  if ((((userInput3 % 2) === 0) && (cpu2 === "짝")) || (((userInput3 % 2) !== 0 ) && (cpu2 === "홀"))) {
+  if ((userInput3 % 2 === 0 && (cpu2 === "짝")) || (userInput3 % 2 !== 0  && (cpu2 === "홀"))) {
     alert("cpu가 맞췄습니다." + " cpu : " + cpu2 + " , player : " + userInput3);
-  } else if ((((userInput3 % 2) === 0) && (cpu2 === "홀")) || (((userInput3 % 2) !== 0 ) && (cpu2 === "짝"))) {
+  } else if ((userInput3 % 2 === 0 && (cpu2 === "홀")) || (userInput3 % 2 !== 0 && (cpu2 === "짝"))) {
     alert("cpu가 틀렸습니다." + " cpu : " + cpu2 + " , player : " + userInput3);
     }
 }

@@ -1,4 +1,3 @@
-
 var userName = ["김","쿠","키"];
 var temp = userName;
 console.log(temp);

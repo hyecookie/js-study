@@ -11,7 +11,7 @@ var clock = {
   },
   hours : 24,
   minutes : 60,
-  seconds : 86400,
+  seconds : 86400
 };
 
 clock.alam ();

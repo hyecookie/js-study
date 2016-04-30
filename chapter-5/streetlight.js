@@ -31,7 +31,7 @@ var streetlight = {
       }
 
        alert('현재 시간은 ' + this.hour + '시 ' + this.minute + '분 ' + this.second + '초');
-    },
+    }
   };
 
 streetlight.time(1000);
